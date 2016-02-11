@@ -1,14 +1,180 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Joshludvigsonme</title>
+  <title>Josh Ludvigson</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+
 <body>
+<div class="headings">
+    <div class="container">
+      <div class="row">
+        <h1>Josh Ludvigson</h1>
+        <h3>Piping Designer <span style="color: #9acd32;">|</span> Drafter</h3>
+      </div>
+    </div>
+  </div>
 
-<%= yield %>
+  <div class="navigation">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 navleft">
+          <ul dir="rtl" class="mymark">
+            <li id="linka"><a id="sum" href="#summary">Summary</a></li>
+            <li id="linkb"><a id="edu" href="#education">Education</a></li>
+            <li id="linkc"><a id="sof" href="#software">Software</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <img src="C:\Users\Josh\Desktop\Resume Website\me.jpg" alt="mugshot" height="150px" width="150px" class="item">
+        </div>
+        <div class="col-md-4 navright">
+          <ul class="mymark">
+            <li id="linka"><a id="pro" href="#projects">Projects</a></li>
+            <li id="linkb"><a id="por" href="#portfolio">Portfolio</a></li>
+            <li id="linkc"><a id="con" href="#contactform">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="details">
+    <div class="container">
+      <div class="row">
+        
+        <!-- Create the DIV swapping content here -->
+        <div class="content">
+
+          <!-- 
+          <div id="launch" class="activePage">
+            Splash page
+          </div> 
+          -->
+
+          <div id="summary" class="inactive bump">
+            <h3>Personal Summary</h3>
+            <p>I'm a Piping Designer located in Calgary, Alberta with six years of experience, which includes designing for large gas plants, small SAGD facilities, and MOC work for oil and gas pipelines, batteries, and related facilities. I have solid field experience as-building risers, oil batteries, and gas plants.</p> 
+            <p>I hold an Engineering Design and Drafting Technology Diploma with Honours from Lethbridge College.  I have previous training in purchasing and operations management with PMAC and APICS.  I'm also a web design hobbiest, self-trained in order to launch my website and learn new skills.</p>
+            <p>As a Piping Designer my experience has mostly been in lead roles, running small projects independantly, or as an area lead on larger scale projects.  I also work as a contractor handling drafting and design needs as they arise.  Have a look through my project experience for more details.</p>
+            <p>I'm comfortable with all of the following tasks:
+              <ul class="edulist">
+                <li>3D piping layouts</li>
+                <li>Navisworks publishing</li>
+                <li>C2 file generation</li>
+                <li>As-builds (field sketches)</li>
+                <li>Drafting:
+                  <ul>
+                  <li>P&ID's</li>
+                  <li>PFD's</li>
+                  <li>GA's</li>
+                  <li>ISO's</li>
+                  <li>Plot plans</li>
+                  <li>Key plans</li>
+                  <li>Line lists</li>
+                </ul></li>
+                <li>Man hour estimates</li>
+                <li>Checking</li>
+              </ul>
+            </p>
+          </div>
+
+          <div id="education" class="inactive bump">
+            <h3>Educational Background</h3>
+            <ul class="edulist">
+              <li>Engineering Design and Drafting Technology Diploma (Lethbridge College, graduated 2010 with Honors)</li>
+              <li>Emergency First Aid, Level A (St. John Ambulance) – Expires 2017</li>
+              <li>H2S Alive – Expires 2018</li>
+              <li>WHMIS – Expires 2015</li>
+            </ul>
+          </div>
+
+          <!--
+          <div id="experience" class="inactive">
+            <h3>Work Experience</h3>
+            <p>Piping Designer, Independent Contractor  (May 2015 – Present)</p>
+            <p>Piping Designer, Gas Liquids Engineering  (May 2011 – Sept 2015)</p>
+            <p>Mechanical Engineering Technologist, Trinidad Drilling  (Nov 2010 - Apr 2011)</p>
+            <p>Drafting Technologist, Stewart Weir  (Aug 2010 - Oct 2010)</p>
+            <p>Engineering Technologist, Sterling Crane  (May 2010 - Jul 2010)</p>
+            <p>Junior Piping Designer (Summer), Gas Liquids Engineering  (May 2009 - Aug 2009)</p>
+            <p>Buyer & Logistics Coordinator, Ballard Power Systems  (Oct 1999 - Aug 2008)</p>
+          </div>
+          -->
+
+          <div id="software" class="inactive bump">
+            <h3>Software Expertise</h3>
+            <p>I'm an <span class="green">expert user</span> of <span class="green">CADWorx</span>, <span class="green">AutoCAD</span>, and <span class="green">Navisworks</span> software for design and drafting work.  I have also used Inventor professionally for mechanical design.</p>
+            <p>I have used Excel and Word for over fifteen years, and I'm a seasoned pro in the windows environment.</p>
+            <p>I have college level training with Civil 3D and Revit, and I could easily pick up where I left off.  Autodesk software is all very similiar, allowing for quick learning and recall, kind of like riding a bike...</p>
+          </div>
+
+          <div id="projects" class="inactive bump">
+            <h3>Project Highlights</h3>
+            <h4>Cutbank Gas Plant, Seven Generations Energy Ltd, Alberta:</h4>
+            <p style="float: left;"><img src="C:\Users\Josh\Desktop\Resume Website\foxcreek4.png" alt="cutbank gas plant" height="75px" width="75px" align="left" style="padding-right: 10px;" class="">
+            <span class="thick">Piping Area Lead</span> (Liquids Handling and Storage Areas):  This grassroots project involved the design of a sweet natural gas plant producing 250 MMSCFD of sweet natural gas, and 6000 bbl/d of sweet NGL.  Responsible for the liquids handling systems which involved NGL bullets, NGL transfer pumps, slop tanks, HC drain vessel, and LACT unit.  Responsibilities include overall layout and design, delegation of tasks, tracking and reporting, and checking of pile, structural, equipment, and piping mechanical packages.</p>
+
+            <h4>Super Pad 29, Seven Generations Energy Ltd, Alberta:</h4>
+            <p style="float: left;"><img src="C:\Users\Josh\Desktop\Resume Website\foxcreek2.png" alt="super pad 29" height="75px" width="75px" align="left" style="padding-right: 10px;" class="">
+            <span class="thick">Piping Area Lead</span> (Inlet Area):  This project involved the design of a super pad capable of 50 MMSCFD of sales gas. Responsible for the design of the inlet riser area, inlet ESD/Blowdown area, as well as the pipeline riser sites feeding the plant inlet area.</p>
+
+            <h4>Simonette Gas Plant, Keyera Energy, British Columbia:</h4>
+            <p style="float: left;"><img src="C:\Users\Josh\Desktop\Resume Website\foxcreek3.png" alt="simonette gas plant" height="75px" width="75px" align="left" style="padding-right: 10px;" class="">
+            <span class="thick">Piping Area Lead</span> (Hot Oil Heater / Flare):  This project involved the addition of condensate stabilization to a sour gas plant of 105 MMSCFD. Responsible for the design of the flare and hot oil heater areas, along with accompanying sub racks and main rack tie-ins.  Responsibilities include overall layout and design, delegation of tasks, and checking of pile, structural, equipment, and piping mechanical packages.</p>
+
+            <h4>Saturn 1, Shell Canada, N. E. British Columbia:</h4>
+            <p style="float: left;"><img src="C:\Users\Josh\Desktop\Resume Website\foxcreek4.png" alt="saturn gas plant" height="75px" width="75px" align="left" style="padding-right: 10px;" class="">
+            <span class="thick">Intermediate Piping Designer</span> (Sales, Power Gen, Rack Modules, VRU):  Involved in the design of a 200 MMSCFD sweet natural gas processing plant in the Groundbirch area of British Columbia.  Design responsibilities included the sales gas building, fuel gas buy-back skid, power generation area, blowdown skid, modular pipe rack, and plant liquids metering skid.  I was also the primary drafter for the plot plan, and daily model publish.</p>
+
+            <h4>Fox Creek Pump Station, Pembina, Alberta</h4>
+            <p style="float: left;"><img src="C:\Users\Josh\Desktop\Resume Website\foxcreek2.png" alt="fox creek pump stn" height="75px" width="75px" align="left" style="padding-right: 10px;" class="">
+            <span class="thick">Piping Designer</span>:  Drafting of P&ID’s and GA’s for the as-built and new construction phases of the project. This is a crude and NGL pumping station capable of switching between commodities to meet customer needs.</p>
+
+            <h4>Various Locations, Pengrowth Energy Corporation, Olds and Westward Ho, Alberta</h4>
+            <p style="float: left;"><img src="C:\Users\Josh\Desktop\Resume Website\foxcreek3.png" alt="fox creek pump stn" height="75px" width="75px" align="left" style="padding-right: 10px;" class="">
+            <span class="thick">Piping Lead Designer</span>:  Overseeing the drafting, design, and project management of Pengrowth projects in Alberta. These projects include gas plant modifications (tank farms, VRU’s, separators, and compressors), pipeline tie-ins, wellsite tie-ins, and complete gas plant as-builds.  Drafting duties include P&ID’s, PFD’s, plot plans, isometrics, 3D models, BOM’s, line lists, and estimating.</p>
+
+            <h4>Various Locations, City of Medicine Hat, Alberta and Saskatchewan</h4>
+            <p style="float: left;"><img src="C:\Users\Josh\Desktop\Resume Website\foxcreek4.png" alt="fox creek pump stn" height="75px" width="75px" align="left" style="padding-right: 10px;" class="">
+            <span class="thick">Piping Lead Designer</span>:  Overseeing the drafting, design, and project management of all City of Medicine Hat projects in Alberta and Saskatchewan. These projects include gas plant modifications (compression, water injection, and separation), pipeline tie-ins, well tie-ins, overpressure protection, and MOC’s.  Drafting duties include field as-builds of riser sites and batteries, P&ID’s, PFD’s, plot plans, isometrics, 3D models, BOM’s, line lists, and estimating.</p>
+
+          </div><div style="clear: both;" class="bump"></div>
+          
+          <div id="portfolio" class="inactive bump">
+            <h3>Portfolio</h3>
+            <p>Portfolio Section is... Coming soon...</p>
+          </div>
+
+          <%= yield %>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <p><a href="#summary">Summary</a> - <a href="#education">Education</a> - <a href="#software">Software</a> - <a href="#projects">Projects</a> - <a href="#portfolio">Portfolio</a> - <a href="#contactform">Contact Me</a></p>
+        <div class="leftfoot"><a href="http://www.joshludvigson.me">www.joshludvigson.me</a>  
+          <span class="links">   
+            <a href="https://ca.linkedin.com/in/josh-ludvigson-a8240b34"><img src="C:\Users\Josh\Desktop\Resume Website\images\social-18-linked-in - inverted.png" height="15px"></a>
+          </span>
+          <p style="color: rgba(255,255,255,.5);">&copy 2015 - Developed by Josh Ludvigson</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 </body>
 </html>
