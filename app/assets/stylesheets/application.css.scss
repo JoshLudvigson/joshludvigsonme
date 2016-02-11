@@ -172,6 +172,13 @@ h1 {
   filter: url(desaturate.svg#greyscale);
 }
 
+.projimg {
+  height: 75px; 
+  width: 75px; 
+  text-align: left; 
+  padding-right: 10px;
+}
+
 .item:hover {
   -webkit-filter: grayscale(0);
   -webkit-filter: grayscale(0%);

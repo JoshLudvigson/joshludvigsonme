@@ -35,7 +35,7 @@
           </ul>
         </div>
         <div class="col-md-4">
-          <img src="C:\Users\Josh\Desktop\Resume Website\me.jpg" alt="mugshot" height="150px" width="150px" class="item">
+          <%= image_tag("me.jpg", :class => "item", :alt => "Selfie") %>
         </div>
         <div class="col-md-4 navright">
           <ul class="mymark">
@@ -121,31 +121,31 @@
           <div id="projects" class="inactive bump">
             <h3>Project Highlights</h3>
             <h4>Cutbank Gas Plant, Seven Generations Energy Ltd, Alberta:</h4>
-            <p style="float: left;"><img src="C:\Users\Josh\Desktop\Resume Website\foxcreek4.png" alt="cutbank gas plant" height="75px" width="75px" align="left" style="padding-right: 10px;" class="">
+            <p style="float: left;"><img src="foxcreek4.png" alt="cutbank gas plant" height="75px" width="75px" align="left" style="padding-right: 10px;" class="projimg">
             <span class="thick">Piping Area Lead</span> (Liquids Handling and Storage Areas):  This grassroots project involved the design of a sweet natural gas plant producing 250 MMSCFD of sweet natural gas, and 6000 bbl/d of sweet NGL.  Responsible for the liquids handling systems which involved NGL bullets, NGL transfer pumps, slop tanks, HC drain vessel, and LACT unit.  Responsibilities include overall layout and design, delegation of tasks, tracking and reporting, and checking of pile, structural, equipment, and piping mechanical packages.</p>
 
             <h4>Super Pad 29, Seven Generations Energy Ltd, Alberta:</h4>
-            <p style="float: left;"><img src="C:\Users\Josh\Desktop\Resume Website\foxcreek2.png" alt="super pad 29" height="75px" width="75px" align="left" style="padding-right: 10px;" class="">
+            <p style="float: left;"><img src="foxcreek2.png" alt="super pad 29" height="75px" width="75px" align="left" style="padding-right: 10px;" class="projimg">
             <span class="thick">Piping Area Lead</span> (Inlet Area):  This project involved the design of a super pad capable of 50 MMSCFD of sales gas. Responsible for the design of the inlet riser area, inlet ESD/Blowdown area, as well as the pipeline riser sites feeding the plant inlet area.</p>
 
             <h4>Simonette Gas Plant, Keyera Energy, British Columbia:</h4>
-            <p style="float: left;"><img src="C:\Users\Josh\Desktop\Resume Website\foxcreek3.png" alt="simonette gas plant" height="75px" width="75px" align="left" style="padding-right: 10px;" class="">
+            <p style="float: left;"><img src="foxcreek3.png" alt="simonette gas plant" height="75px" width="75px" align="left" style="padding-right: 10px;" class="projimg">
             <span class="thick">Piping Area Lead</span> (Hot Oil Heater / Flare):  This project involved the addition of condensate stabilization to a sour gas plant of 105 MMSCFD. Responsible for the design of the flare and hot oil heater areas, along with accompanying sub racks and main rack tie-ins.  Responsibilities include overall layout and design, delegation of tasks, and checking of pile, structural, equipment, and piping mechanical packages.</p>
 
             <h4>Saturn 1, Shell Canada, N. E. British Columbia:</h4>
-            <p style="float: left;"><img src="C:\Users\Josh\Desktop\Resume Website\foxcreek4.png" alt="saturn gas plant" height="75px" width="75px" align="left" style="padding-right: 10px;" class="">
+            <p style="float: left;"><img src="foxcreek4.png" alt="saturn gas plant" height="75px" width="75px" align="left" style="padding-right: 10px;" class="projimg">
             <span class="thick">Intermediate Piping Designer</span> (Sales, Power Gen, Rack Modules, VRU):  Involved in the design of a 200 MMSCFD sweet natural gas processing plant in the Groundbirch area of British Columbia.  Design responsibilities included the sales gas building, fuel gas buy-back skid, power generation area, blowdown skid, modular pipe rack, and plant liquids metering skid.  I was also the primary drafter for the plot plan, and daily model publish.</p>
 
             <h4>Fox Creek Pump Station, Pembina, Alberta</h4>
-            <p style="float: left;"><img src="C:\Users\Josh\Desktop\Resume Website\foxcreek2.png" alt="fox creek pump stn" height="75px" width="75px" align="left" style="padding-right: 10px;" class="">
+            <p style="float: left;"><img src="foxcreek2.png" alt="fox creek pump stn" height="75px" width="75px" align="left" style="padding-right: 10px;" class="projimg">
             <span class="thick">Piping Designer</span>:  Drafting of P&ID’s and GA’s for the as-built and new construction phases of the project. This is a crude and NGL pumping station capable of switching between commodities to meet customer needs.</p>
 
             <h4>Various Locations, Pengrowth Energy Corporation, Olds and Westward Ho, Alberta</h4>
-            <p style="float: left;"><img src="C:\Users\Josh\Desktop\Resume Website\foxcreek3.png" alt="fox creek pump stn" height="75px" width="75px" align="left" style="padding-right: 10px;" class="">
+            <p style="float: left;"><img src="foxcreek3.png" alt="fox creek pump stn" height="75px" width="75px" align="left" style="padding-right: 10px;" class="projimg">
             <span class="thick">Piping Lead Designer</span>:  Overseeing the drafting, design, and project management of Pengrowth projects in Alberta. These projects include gas plant modifications (tank farms, VRU’s, separators, and compressors), pipeline tie-ins, wellsite tie-ins, and complete gas plant as-builds.  Drafting duties include P&ID’s, PFD’s, plot plans, isometrics, 3D models, BOM’s, line lists, and estimating.</p>
 
             <h4>Various Locations, City of Medicine Hat, Alberta and Saskatchewan</h4>
-            <p style="float: left;"><img src="C:\Users\Josh\Desktop\Resume Website\foxcreek4.png" alt="fox creek pump stn" height="75px" width="75px" align="left" style="padding-right: 10px;" class="">
+            <p style="float: left;"> <%= image_tag("foxcreek4.png", :class => "projimg", :alt => "fox creek pump stn") %>
             <span class="thick">Piping Lead Designer</span>:  Overseeing the drafting, design, and project management of all City of Medicine Hat projects in Alberta and Saskatchewan. These projects include gas plant modifications (compression, water injection, and separation), pipeline tie-ins, well tie-ins, overpressure protection, and MOC’s.  Drafting duties include field as-builds of riser sites and batteries, P&ID’s, PFD’s, plot plans, isometrics, 3D models, BOM’s, line lists, and estimating.</p>
 
           </div><div style="clear: both;" class="bump"></div>
@@ -168,7 +168,7 @@
         <p><a href="#summary">Summary</a> - <a href="#education">Education</a> - <a href="#software">Software</a> - <a href="#projects">Projects</a> - <a href="#portfolio">Portfolio</a> - <a href="#contactform">Contact Me</a></p>
         <div class="leftfoot"><a href="http://www.joshludvigson.me">www.joshludvigson.me</a>  
           <span class="links">   
-            <a href="https://ca.linkedin.com/in/josh-ludvigson-a8240b34"><img src="C:\Users\Josh\Desktop\Resume Website\images\social-18-linked-in - inverted.png" height="15px"></a>
+            <a href="https://ca.linkedin.com/in/josh-ludvigson-a8240b34"><img src="social-18-linked-in - inverted.png" height="15px"></a>
           </span>
           <p style="color: rgba(255,255,255,.5);">&copy 2015 - Developed by Josh Ludvigson</p>
         </div>
