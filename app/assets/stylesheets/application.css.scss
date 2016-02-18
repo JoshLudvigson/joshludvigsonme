@@ -319,7 +319,7 @@ h1 {
   .details {margin-bottom: 100px;}
   .navigation { margin-top: 10px;}
   .btn {margin-top: 30px;}
-  .contactform {width: 80%;}
+  .contactform {max-width: 60%;}
 }
 
 @media (max-width: 500px) {
@@ -332,6 +332,6 @@ h1 {
   .details {margin-bottom: 100px;}
   .navigation { margin-top: 10px;}
   ul {direction: auto;}
-  .contactform {width: 100%;}
+  .contactform {max-width: 100%;}
 
 }
