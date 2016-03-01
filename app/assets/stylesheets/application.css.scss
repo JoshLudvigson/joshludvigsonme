@@ -209,8 +209,9 @@ h1 {
   margin-top: 20px;
  }
  
- #contactform {
+ #contactform, #home {
    text-align: left;
+   color: rgba(255,255,255,.5);
  }
 
  .content {
@@ -325,9 +326,9 @@ h1 {
   .navleft {margin-bottom: 40px;}
   ul {direction: auto;}
   .mymark {/*width: 175px;*/ direction: ltr; text-align: center; margin: 0px;}
-  #linka {padding-top: 25px; margin-bottom: 10px;}
+  #linka {padding-top: 0px; margin-bottom: 10px;}
   #linkb, #linkc {margin-top: 0px; margin-bottom: 10px;}
-  .details {margin-bottom: 100px;}
+  .details {margin-bottom: 50px;}
   .navigation { margin-top: 10px;}
   .btn {margin-top: 30px;}
 }
@@ -338,9 +339,9 @@ h1 {
     text-align: center;
   }
   .mymark {/*width: 175px;*/ direction: ltr; text-align: center; margin: 0px;}
-  #linka {padding-top: 25px; margin-bottom: 10px;}
-  #linkb, #linkc {margin-top: 0px; margin-bottom: 10px;}
-  .details {margin-bottom: 100px;}
+  #linka {padding-top: 0px; margin-bottom: 0px;}
+  #linkb, #linkc {margin-top: 0px; margin-bottom: 0px;}
+  .details {margin-bottom: 50px;}
   .navigation { margin-top: 10px;}
   ul {direction: auto;}
 }
