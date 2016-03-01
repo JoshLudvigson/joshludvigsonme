@@ -199,7 +199,7 @@ h1 {
 
 .details {
   text-align: center;
-  color: #9acd32;
+  color: #fff;
   margin-top: 20px;
  }
  
@@ -330,7 +330,6 @@ h1 {
   .details {margin-bottom: 100px;}
   .navigation { margin-top: 10px;}
   .btn {margin-top: 30px;}
-  .contactform {max-width: 60%;}
 }
 
 @media (max-width: 500px) {
@@ -344,6 +343,4 @@ h1 {
   .details {margin-bottom: 100px;}
   .navigation { margin-top: 10px;}
   ul {direction: auto;}
-  .contactform {max-width: 100%;}
-
 }
