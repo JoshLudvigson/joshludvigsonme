@@ -27,7 +27,7 @@ html, body, p {
 
 body {
   /*background-image: asset-url("bg.png", image) repeat; */
-  background-image: url(image_path("images/bg.png"));
+  background-image:url(image_path("images/bg.png"));
 }
 
 h1 {
