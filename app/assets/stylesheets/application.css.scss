@@ -27,7 +27,10 @@ html, body, p {
 
 body {
   /*background-image: asset-url("bg.png", image) repeat;*/
-  background: url("bg.png") repeat; 
+  background-image: image-url("bg.png") repeat; 
+  background-image: image-path("bg.png") repeat; 
+  background-image: asset-url("bg.png"); 
+  background-image: asset-path("bg.png"); 
   /*background-image:url(image_path("images/bg.png"));*/
 }
 
