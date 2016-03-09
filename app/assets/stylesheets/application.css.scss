@@ -47,12 +47,12 @@ h1 {
 
 .thick {
   font-family: 'Raleway', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .thicker {
   font-family: 'Raleway', sans-serif;
-  font-weight: 800;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -238,6 +238,8 @@ h1 {
  }
 
  .details h2, .details h3, .details h4 {color: #9acd32;}
+ 
+ h4 {padding-top: 10px;}
 
  .green {color: #9acd32;}
 
@@ -336,7 +338,8 @@ h1 {
   .navleft, .navright {
     text-align: center;
   }
-  .navleft {margin-bottom: 40px;}
+  .navleft {margin-bottom: 10px;}
+  .navright {margin-top: 10px;}
   ul {direction: auto;}
   .mymark {/*width: 175px;*/ direction: ltr; text-align: center; margin: 0px;}
   #linka {padding-top: 0px; margin-bottom: 10px;}
