@@ -25,6 +25,10 @@ html, body, p {
   font-weight: 400;
 }
 
+p + p {
+    margin-top: 8px;
+}
+
 body {
   /*background-image: asset-url("bg.png", image) repeat;*/
   background-image: image-url("bg.png") repeat; 
