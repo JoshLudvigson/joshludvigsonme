@@ -262,12 +262,18 @@ h1 {
   display: inline-block;
  }
 
-a:visited {
+a:visited, a:normal {
   color: rgba(255,255,255,.5);
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
- .btn:visited {
+
+a:hover {
+  #9acd32;
+  text-decoration: none;
+}
+
+.btn:visited {
   background-color: rgba(255,255,255,0);
   color: rgba(255,255,255,.5);
   border: 1px solid rgba(255,255,255,.5);
